@@ -5,7 +5,7 @@
     "deep <ndeep_27@yahoo.com>"
   ],
   "description": "d3 lab",
-  "main": "",
+  "main": "index.html",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -17,5 +17,6 @@
   "dependencies": {
     "jQuery": "^2.2.3",
     "d3": "^3.5.16"
-  }
+  },
+  "private": true
 }
