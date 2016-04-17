@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Lab-09</title>
+  <script src="bower_components/jQuery/dist/jquery.min.js"></script>
+  <script src="bower_components/d3/d3.min.js" charset = "utf-8"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<style>
+body {
+  font: 15px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+</style>
+<body>
+<h4 id="hovered">chevrolet chevelle malibu</h4>
+<div class="plot">
+  <svg></svg>
+</div>
+<br/>
+<br/>
+<div class="ui">
+  <div>
+    <label>X-Axis</label>
+    <select id="sel-x">
+    </select>
+    <label>Y-Axis</label>
+    <select id="sel-y">
+    </select>
+  </div>
+  <div>
+    <input id="mpg-min" type="text" value="0" size="10">
+    <input id="mpg-max" type="text" value="30" size="10">
+    <button id="update">Query MPG</button>
+  </div>
+</div>
+</body>
+</html>
+
